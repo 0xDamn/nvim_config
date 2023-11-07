@@ -10,6 +10,9 @@ return {
       -- add tsx and treesitter
       vim.list_extend(opts.ensure_installed, {
         "cpp",
+        "python",
+        "rust",
+        "markdown",
       })
     end,
   },
